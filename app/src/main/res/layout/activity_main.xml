@@ -14,11 +14,11 @@
             android:layout_width="274dp"
             android:layout_height="270dp"
             android:layout_alignParentBottom="true"
-            android:layout_centerHorizontal="true"
             android:contentDescription="@string/conten"
             android:src="@drawable/imagen"
             tools:layout_editor_absoluteX="55dp"
-            tools:layout_editor_absoluteY="214dp" />
+            tools:layout_editor_absoluteY="214dp"
+            android:layout_alignEnd="@+id/textView" />
 
         <TextView
             android:id="@+id/textView"
