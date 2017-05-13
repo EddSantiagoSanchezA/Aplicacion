@@ -1,37 +1,47 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     tools:context="com.example.eddysantiago.aplicacion.MainActivity">
 
-    <RelativeLayout
-        android:layout_width="362dp"
-        android:layout_height="497dp">
 
-        <ImageView
-            android:id="@+id/imageView"
-            android:layout_width="274dp"
-            android:layout_height="270dp"
-            android:layout_alignParentBottom="true"
-            android:contentDescription="@string/conten"
-            android:src="@drawable/imagen"
-            tools:layout_editor_absoluteX="55dp"
-            tools:layout_editor_absoluteY="214dp"
-            android:layout_alignEnd="@+id/textView" />
 
         <TextView
             android:id="@+id/textView"
-            android:layout_width="351dp"
+            android:layout_width="match_parent"
             android:layout_height="94dp"
+            android:layout_weight="1"
             android:text="@string/titulo"
             android:textAlignment="center"
             android:textAllCaps="true"
             android:textColor="#571717"
             android:textSize="36sp"
             android:textStyle="bold"
+            tools:layout_editor_absoluteX="37dp"
+            tools:layout_editor_absoluteY="56dp"
             tools:textAlignment="center"
             tools:textColor="#571717" />
-    </RelativeLayout>
 
-</android.support.constraint.ConstraintLayout>
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="270dp"
+            android:layout_weight="1"
+            android:contentDescription="@string/conten"
+            android:scaleType="fitXY"
+            android:src="@drawable/imagen"
+            tools:layout_editor_absoluteX="55dp"
+            tools:layout_editor_absoluteY="214dp" />
+
+        <Button
+            android:id="@+id/boton1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/pantalla2" />
+    </LinearLayout>
+
+

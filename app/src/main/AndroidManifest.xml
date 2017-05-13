@@ -9,7 +9,15 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        android:fullBackupContent
         <activity android:name=".MainActivity">
+            <intent-filter android:label="@string/filter_title_viewgizmos">
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Segunda">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

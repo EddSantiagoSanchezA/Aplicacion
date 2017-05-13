@@ -1,6 +1,9 @@
 <resources>
-    <string name="app_name">Aplicacion</string>
+    <string name="app_name">Aplicacion Simulacion</string>
     <string name="titulo">Bienvenido a la Aplicacion</string>
     <string name="conten">ImagenMuestra</string>
-    ImagenMuestra
+    <string name="pantalla2">Pantalla 2</string>
+    <string name="titulo2">Pantalla 2</string>
+    <string name="regresar">Regresar</string>
+
 </resources>

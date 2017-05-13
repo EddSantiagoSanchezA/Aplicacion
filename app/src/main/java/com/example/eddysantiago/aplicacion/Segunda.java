@@ -6,24 +6,21 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-public class MainActivity extends AppCompatActivity {
-    //Crear variables de los objetos a utilizar
-    Button miboton;
+public class Segunda extends AppCompatActivity {
 
+    //Creamos la variable
+    Button boton2;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_segunda);
 
-        //Referencia a estos elementos
-        miboton = (Button) findViewById(R.id.boton1);
-
-        //Agregar un listener
-        miboton.setOnClickListener(new View.OnClickListener() {
+        boton2=(Button) findViewById(R.id.boton2);
+        boton2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent pantalla=new Intent(MainActivity.this,Segunda.class);
+                Intent pantalla=new Intent(Segunda.this,MainActivity.class);
                 startActivity(pantalla);
                 finish();
             }
