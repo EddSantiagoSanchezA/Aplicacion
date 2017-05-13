@@ -11,7 +11,7 @@
         android:theme="@style/AppTheme">
 
         <activity android:name=".MainActivity">
-            <intent-filter android:label="@string/filter_title_viewgizmos">
+            <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
