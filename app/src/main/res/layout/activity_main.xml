@@ -25,18 +25,17 @@
             tools:textAlignment="center"
             tools:textColor="#571717" />
 
-        <ImageView
-            android:id="@+id/imageView"
-            android:layout_width="match_parent"
-            android:layout_height="270dp"
-            android:layout_weight="1"
-            android:contentDescription="@string/conten"
-            android:scaleType="fitXY"
-            android:src="@drawable/imagen"
-            tools:layout_editor_absoluteX="55dp"
-            tools:layout_editor_absoluteY="214dp" />
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="254dp"
+        android:contentDescription="@string/conten"
+        android:scaleType="fitXY"
+        android:src="@drawable/imagen"
+        tools:layout_editor_absoluteX="55dp"
+        tools:layout_editor_absoluteY="214dp" />
 
-        <Button
+    <Button
             android:id="@+id/boton1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
