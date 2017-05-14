@@ -33,7 +33,8 @@
         android:scaleType="fitXY"
         android:src="@drawable/imagen"
         tools:layout_editor_absoluteX="55dp"
-        tools:layout_editor_absoluteY="214dp" />
+        tools:layout_editor_absoluteY="214dp"
+        android:layout_weight="0.89" />
 
     <Button
             android:id="@+id/boton1"
